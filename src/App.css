@@ -1,3 +1,20 @@
+body {
+  background-color: #5f5f5fcc;
+  background-image: url("/src/books.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+}
+a {
+  color: #632103e1;
+}
+a:hover {
+  color: #a35d2fec;
+}
+a:visited {
+  color: #3e4706b6;
+}
 .App-header {
   margin: 30px 0;
 }
@@ -10,7 +27,6 @@
 }
 
 .App-footer {
-  text-align: center;
   font-size: 11px;
   opacity: 0.6;
   margin: 30px 0;
