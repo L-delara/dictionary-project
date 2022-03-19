@@ -1,0 +1,19 @@
+.Sounds {
+  margin: 13px 20px;
+}
+
+.Sounds a {
+  border: 1px solid #632103e1;
+  color: #632103e1;
+  text-decoration: none;
+  padding: 7px 15px;
+  border-radius: 18px;
+  transition: all 150ms ease-in;
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.Sounds a:hover {
+  background: #ffb1718a;
+  color: #323f35;
+}

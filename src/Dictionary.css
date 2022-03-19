@@ -18,3 +18,10 @@
   color: #3f1801ef;
   margin-top: 5px;
 }
+
+.Dictionary h1 {
+  color: #3f1801ef;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: -5px;
+}
