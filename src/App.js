@@ -10,9 +10,35 @@ export default function App() {
           <img src={logo} className="App-logo img-fluid" alt="logo" />
         </header>
         <main>
-          <Dictionary defaultKeyword="book" />
+          <Dictionary defaultKeyword="castle" />
         </main>
-        <footer className="App-footer">Coded by Ligia for SheCodes</footer>
+        <footer className="App-footer">
+          An{" "}
+          <a
+            href="https://github.com/L-delara/dictionary-project"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            open-source code
+          </a>{" "}
+          by{" "}
+          <a
+            href="www.linkedin.com/in/ligia-de-lara-01627873"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Ligia
+          </a>{" "}
+          hosted on{" "}
+          <a
+            href="https://app.netlify.com/teams/l-delara/overview"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Netlify
+          </a>{" "}
+          for SheCodes React Workshop
+        </footer>
       </div>
     </div>
   );

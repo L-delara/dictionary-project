@@ -10,15 +10,15 @@ export default function Dictionary(props) {
   let [loaded, setLoaded] = useState(false);
   let [photos, setPhotos] = useState(null);
 
-  function handleResponse(response) {
+  function handleDictionaryResponse(response) {
     setResults(response.data[0]);
   }
   function handlePexelsResponse(response) {
     setPhotos(response.data.photos);
   }
   function search() {
-    let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${keyword}`;
-    axios.get(apiUrl).then(handleResponse);
+    let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en_US/${keyword}`;
+    axios.get(apiUrl).then(handleDictionaryResponse);
 
     let pexelsKey =
       "563492ad6f91700001000001e31783857938406cbe8d750a229fc0a9";
